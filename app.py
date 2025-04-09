@@ -20,6 +20,13 @@ except Exception as e:
     print("MongoDB connection failed:", e)
 
 
+from routes.auth import auth_bp
+app.register_blueprint(auth_bp)
+
+from routes.task import task_bp
+app.register_blueprint(task_bp)    
+
+
 @app.route('/')
 def home():
     return jsonify({"msg": "Task API is running!"})
