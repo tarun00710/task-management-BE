@@ -167,7 +167,7 @@ Authorization: Bearer <JWT token>
 ## 📫 Postman Collection
 
 - Download or import from this link:
-[Postman Collection Link](https://.postman.co/workspace/My-Workspace~edf3b47b-f1a0-4cac-8f60-1e74ea90dd8f/collection/20770043-ed91a689-57bf-432d-9d27-795202e8b2d8?action=share&creator=20770043&active-environment=20770043-9917f726-8662-4469-bba4-44f3a43ffaaf)
+[Postman Collection Link](https://www.postman.com/supply-explorer-19346081/task-management/request/lmbdwmn/task-management-api?action=share&creator=20770043&ctx=documentation&active-environment=20770043-3f45b4dc-b285-415c-bd1f-1be6f096b185)
 
 ✅ Be sure to include the Bearer token in the `Authorization` header when testing protected routes or Click environment variables and select Flask_test and then run the protected apis as I have already created and attached required token in this.
 
