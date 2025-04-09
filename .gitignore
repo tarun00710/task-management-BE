@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.log
+
+# Flask environment
+instance/
+.env
+.env.*
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# VSCode or IDE files
+.vscode/
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# PyMongo lock files (if any)
+*.lock
+
